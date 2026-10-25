@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.TreasureHuntApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.NTU.MaterialAlertDialog</item>
+    </style>
+
+    <!-- NTU Hunt: red primary, rounded panels, readable body text for all Material alert dialogs. -->
+    <style name="ThemeOverlay.NTU.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/ntuRed</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/ntu_header_gradient_start</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/darkgrey</item>
+        <item name="colorOnSurfaceVariant">@color/ntu_support_text_muted</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.NTU.Dialog</item>
+    </style>
+
+    <style name="ShapeAppearance.NTU.Dialog" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Treasure Hunt App</string>
+
+    <string name="nav_stats">Stats</string>
+    <string name="nav_support">Support</string>
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="leaderboard_tagline">Top explorers · NTU Hunt</string>
+    <string name="leaderboard_error">Could not load leaderboard: %1$s</string>
+    <string name="leaderboard_empty">No players on the leaderboard yet.\nSign up and earn points by finding treasures.</string>
+    <string name="leaderboard_row_campus_hint">NTU Hunt player</string>
+    <string name="public_player_dialog_title">Explorer profile</string>
+    <string name="public_player_loading">Loading profile…</string>
+    <string name="public_player_load_failed">Could not load this player\'s profile.</string>
+    <string name="public_player_profile_unavailable">Profile is not available for this row.</string>
+    <string name="public_player_achievements_heading">Achievements</string>
+    <string name="public_player_treasures_heading">Treasures collected</string>
+    <string name="treasure_screen_title">Campus treasures</string>
+    <string name="treasure_screen_subtitle">Clifton &amp; City · Tap a clue, then use the map</string>
+    <string name="treasure_accept_hunt">Accept &amp; open map</string>
+    <string name="toast_treasure_found">Treasure collected! +%1$d points</string>
+    <string name="treasure_collected_badge">Collected</string>
+    <string name="treasure_reset_collected_title">Reset treasure?</string>
+    <string name="treasure_reset_collected_message">Clear the collected status so you can test this hunt again. (Long-press on a collected tile to open this.)</string>
+    <string name="treasure_reset_collected_confirm">Reset</string>
+    <string name="map_collect_title">Congratulations!</string>
+    <string name="map_collect_message">You found %1$s.\n+%2$d points added to your NTU Hunt profile.</string>
+    <string name="map_collect_confirm">Add to collection</string>
+    <string name="map_too_far_to_collect">Move closer to collect this treasure.</string>
+    <string name="map_wait_for_location">Waiting for your location…</string>
+    <string name="map_pin_snippet">Tap when you are here to collect</string>
+
+    <string name="achievement_unlocked_walk">Achievement unlocked — walked %1$d metres!</string>
+    <string name="achievement_walk_10m">Walked 10 metres</string>
+    <string name="achievement_walk_100m">Walked 100 metres</string>
+    <string name="achievement_walk_500m">Walked 500 metres</string>
+    <string name="achievement_treasure_1">Found 1 treasure</string>
+    <string name="achievement_treasure_3">Found 3 treasures</string>
+    <string name="achievement_treasure_5">Found 5 treasures</string>
+    <string name="achievement_dialog_ok">OK</string>
+    <string name="achievement_status_unlocked">Status: Unlocked — nice work!</string>
+    <string name="achievement_progress_walk">Progress: %1$d / %2$d metres walked on the map</string>
+    <string name="achievement_progress_treasure">Progress: %1$d / %2$d treasures collected</string>
+    <string name="achievement_walk_10m_detail">Take your first steps on the hunt. While you have an active treasure on the Map tab, the app records how far you move using GPS. Reach 10 metres of tracked walking to earn this badge.</string>
+    <string name="achievement_walk_100m_detail">Keep exploring campus with the map open. Your walk distance adds up across sessions as long as location updates are coming in. Hit 100 metres to show you are really covering ground.</string>
+    <string name="achievement_walk_500m_detail">The long-distance explorer badge. Five hundred metres of tracked movement means you have been out on foot around NTU for a serious stretch of the hunt.</string>
+    <string name="achievement_treasure_1_detail">Collect your first treasure from the map. Accept a clue on the Treasures screen, go to the Map when you are close enough, tap the pin, and confirm to add it to your collection.</string>
+    <string name="achievement_treasure_3_detail">Broaden your collection. Find three different treasures using the map and GPS check-in. Each rarity counts the same toward this total.</string>
+    <string name="achievement_treasure_5_detail">A committed collector. Five treasures found means you have completed several hunts end-to-end — clues, walking, and map pickups.</string>
+
+    <string name="stats_screen_title">Stats &amp; badges</string>
+    <string name="stats_tagline">Your NTU Hunt progress</string>
+    <string name="stats_profile_campus_line">Clifton &amp; City campuses</string>
+    <string name="stats_treasures_collected">Treasures collected</string>
+    <string name="rarity_common">Common</string>
+    <string name="rarity_rare">Rare</string>
+    <string name="rarity_legendary">Legendary</string>
+    <string name="stats_guest_name">Guest</string>
+    <string name="stats_rarity_count">%1$d / %2$d</string>
+    <string name="stats_total_points">Total points: %1$s</string>
+    <string name="profile_open_settings">Profile settings</string>
+    <string name="settings_title">Profile</string>
+    <string name="settings_navigate_up">Back</string>
+    <string name="settings_subtitle">Update how you appear on your NTU Hunt stats screen.</string>
+    <string name="settings_label_name">Name</string>
+    <string name="settings_label_location">Location</string>
+    <string name="settings_label_course">Course</string>
+    <string name="settings_label_pronouns">Pronouns</string>
+    <string name="settings_not_set">Not set</string>
+    <string name="settings_edit_name_title">Edit name</string>
+    <string name="settings_edit_location_title">Edit location</string>
+    <string name="settings_edit_course_title">Edit course</string>
+    <string name="settings_edit_pronouns_title">Edit pronouns</string>
+    <string name="settings_ok">Save</string>
+    <string name="settings_cancel">Cancel</string>
+    <string name="profile_sync_leaderboard_ok">Name saved — it will show on the leaderboard after you refresh that tab.</string>
+    <string name="profile_sync_leaderboard_failed">Could not update leaderboard (check you are signed in with Firebase and Firestore rules allow updates).</string>
+    <string name="profile_sync_leaderboard_offline">Name saved on this device only. Offline demo accounts do not sync to the global leaderboard.</string>
+    <string name="profile_sync_needs_firebase_auth">Name saved here. Sign out and sign in again with your email/password so the app can update your name on the leaderboard.</string>
+
+    <string name="auth_invalid_email">Enter a valid email address.</string>
+    <string name="auth_email_ntu_only">Use your NTU student email (ending with @my.ntu.ac.uk). Personal addresses such as Gmail or Outlook are not allowed.</string>
+    <string name="auth_password_too_short">Password must be at least %1$d characters (Firebase requirement).</string>
+    <string name="login_empty_fields">Please enter email and password.</string>
+    <string name="login_show_password">Show password</string>
+    <string name="login_success">Signed in.</string>
+    <string name="offline_login_success">Offline demo account signed in.</string>
+    <string name="dev_offline_login_success">Dev offline login (debug build only).</string>
+    <string name="auth_login_failed">Could not sign in. Check email and password.</string>
+    <string name="auth_password_reset_sent">If that email is registered, a reset link has been sent.</string>
+    <string name="auth_password_reset_failed">Could not send reset email. Check the address and your connection.</string>
+    <string name="auth_network_error">Network error. Check your connection and try again.</string>
+    <string name="auth_signup_failed">Could not create account. The email may already be registered.</string>
+    <string name="account_created">Account created. You can sign in.</string>
+    <string name="passwords_do_not_match">Passwords do not match.</string>
+    <string name="auth_firestore_profile_failed">Account created but profile save failed. Try signing in.</string>
+    <string name="logout_title">Sign out</string>
+    <string name="logout_message">You will return to the login screen.</string>
+    <string name="logout_confirm">Sign out</string>
+
+    <string name="tutorial_title">Welcome to NTU Hunt</string>
+    <string name="tutorial_body">Thank you for joining us. Here is how the hunt works:\n\n• Open Treasures and choose a treasure to find.\n• Read the clue and hint to work out where on campus to go.\n• Use the map and walk to the location that matches the clue.\n• When you are close enough, a search area appears on the map. Move around inside it until the pin appears.\n• Tap the pin to collect the treasure.\n• Points are fixed by rarity: Common 10, Rare 25, Legendary 100. The confirmation dialog on the map shows how many points you will earn before you add the treasure to your collection. Each find is added to your running total.\n• Your total score is shown on Stats. If you are signed in, it is kept in sync with the Leaderboard so you can see how you rank against other players.\n• Open Stats at any time to view your badges and track your progress.</string>
+    <string name="tutorial_ok">Got it</string>
+
+    <string name="support_title">Student support</string>
+    <string name="support_brand_line">Nottingham Trent University</string>
+    <string name="support_tagline">NTU Hunt · Clifton &amp; City campuses</string>
+    <string name="support_intro">Tell us what went wrong or share an idea. Reports help the NTU Hunt team improve the app for everyone on campus.</string>
+    <string name="support_footer">Questions about your account or module work? Contact your school office or NTU Student Services.</string>
+    <string name="support_category_label">Category</string>
+    <string name="support_message_hint">Describe the issue</string>
+    <string name="support_submit">Submit</string>
+    <string name="support_empty_message">Please enter a message.</string>
+    <string name="support_sent">Thanks — your report was sent.</string>
+    <string name="support_failed">Could not send. Check your connection.</string>
+
+    <string-array name="support_categories">
+        <item>Bug</item>
+        <item>Feedback</item>
+        <item>Hunt / GPS issue</item>
+        <item>Account</item>
+        <item>Other</item>
+    </string-array>
+</resources>

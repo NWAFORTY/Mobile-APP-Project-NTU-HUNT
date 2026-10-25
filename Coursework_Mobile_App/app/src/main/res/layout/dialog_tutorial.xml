@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxWidth="400dp"
+    android:background="@drawable/bg_tutorial_dialog"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <TextView
+        android:id="@+id/tutorialTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:letterSpacing="0.02"
+        android:text="@string/tutorial_title"
+        android:textColor="@color/ntuRed"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tutorialBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:lineSpacingMultiplier="1.25"
+        android:text="@string/tutorial_body"
+        android:textColor="@color/darkgrey"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tutorialOk"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minHeight="52dp"
+        android:text="@string/tutorial_ok"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/ntuRed"
+        app:cornerRadius="28dp" />
+</LinearLayout>

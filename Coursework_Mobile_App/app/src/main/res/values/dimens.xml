@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Match support header block; negative margin pulls card up so ~15–20% sits over the gradient -->
+    <dimen name="support_header_scroll_inset">180dp</dimen>
+    <dimen name="support_card_header_overlap">56dp</dimen>
+    <dimen name="support_card_header_overlap_negative">-56dp</dimen>
+</resources>
