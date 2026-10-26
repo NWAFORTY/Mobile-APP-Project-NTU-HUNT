@@ -1,5 +1,3 @@
-# Mobile-APP-Project-NTU-HUNT
-Android treasure hunt app that gamifies exploring NTU campus with GPS clues, badges and a live leaderboard. Built with Java, Google Maps and Firebase.
 # NTU Hunt — GPS Treasure Hunt App for Campus Exploration
 
 An Android app that turns Nottingham Trent University's campus into a GPS-based treasure hunt. Players follow riddle-style clues to real locations, collect treasures when they arrive, earn points and badges, and compete on a live leaderboard.
