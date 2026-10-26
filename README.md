@@ -6,6 +6,8 @@ An Android app that turns Nottingham Trent University's campus into a GPS-based 
 
 Built in Java for the **ITEC31041 Mobile Platform Applications** module at Nottingham Trent University.
 
+**Presentation (YouTube):** [https://youtu.be/VTrgHHcw0wM](https://youtu.be/VTrgHHcw0wM)
+
 ## The problem
 
 Many students stick to a few familiar routes between lectures, accommodation and food, and never discover the wider campus: libraries, study hubs, sports facilities, support services. NTU Hunt gamifies exploration to encourage students to move around, discover facilities and meet people. The full proposal, market research and impact analysis are in [`docs/App-Proposal-and-Impact-Report.docx`](docs/App-Proposal-and-Impact-Report.docx).
@@ -63,6 +65,8 @@ Treasure coordinates in `TreasureManager.java` are real NTU campus locations, so
 ## Testing and user feedback
 
 Testing notes and feedback from two participants are in [`docs/Testing-Report-and-User-Feedback.docx`](docs/Testing-Report-and-User-Feedback.docx). Early feedback asked for a first-launch tutorial and the ability to view other players' stats on the leaderboard. The app now includes both.
+
+A walkthrough of the app is in the [YouTube presentation](https://youtu.be/VTrgHHcw0wM).
 
 ## Future work
 
